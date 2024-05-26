@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+<link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--=============== FONT AWESOME ===============-->
+
+<div id="panel" class="panel-container">
+    <h1>Ease<span>Of</span>Learning</h1>
+    <p>Please provide your feedback so that we can continue <br> to improve our service.</p>
+<br><br>
+
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="mobile">Ph no:</label>
+        <input type="text" id="mobile" name="mobile" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <br><br><br>
+       
+
+
+  <strong>How was your experience?</strong>
+  <div class="ratings-container">
+    <div class="rating">
+      <i class="fa-solid fa-face-sad-tear"></i> <br>
+      <small>Poor</small>
+    </div>
+
+    <div class="rating active">
+      <i class="fa-solid fa-face-meh"></i> <br>
+      <small>Average</small>
+    </div>
+
+    <div class="rating">
+      <i class="fa-solid fa-face-grin-beam"></i> <br>
+      <small>Good</small>
+    </div>
+    <div class="rating">
+        <i id="Excellent" class="fa-regular fa-star"></i> <br>
+        <small>Excellent</small>
+      </div>
+
+      
+  </div>
+
+  <div class="comments-container">
+    <label for="comment">Comments:</label>
+    <textarea id="comment" name="comment" rows="4" required></textarea><br><br><br>
+  </div>
+ 
+  <button class="btn" id="send">Send Review</button>
+
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
